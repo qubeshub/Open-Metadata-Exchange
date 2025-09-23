@@ -39,7 +39,7 @@ class QubesPlugin(OMEPlugin):
         """
         This method creates a metadata card from a given URL.
         """
-        return extract_from_url(url) # DREW PUT IN API CALL TO QUBES
+        return extract_from_url(url)
 
     def make_metadata_card_from_json(self, json_payload: str) -> EducationResource:
         """
